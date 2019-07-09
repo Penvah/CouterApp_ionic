@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-title>
+      Court Couter
+    </ion-title>
+  </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+
+      <ion-tabs>
+          <ion-tab-bar slot="bottom" class="dropleft">
+            <ion-tab-button class="dropleft" tab="#">
+              <ion-icon name="arrow-dropleft"></ion-icon>
+            </ion-tab-button>
+       
+            <ion-tab-button class="dropleft" tab="#">
+              <ion-icon name="radio-button-off"></ion-icon>
+            </ion-tab-button>
+       
+            <ion-tab-button class="dropleft" tab="#">
+              <ion-icon name="square-outline"></ion-icon>
+            </ion-tab-button>
+       
+          </ion-tab-bar>
+        </ion-tabs>
+  
+  <table>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <tr>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <th>
+  <!-- <div class="container"> -->
+    <ion-label>Team A</ion-label>
+    <ion-label><h1>{{TA}}</h1></ion-label>
+    <tr>
+        <th>
+  <ion-button color="warning" (click)="press1()">-3</ion-button>
+  <ion-button color="warning" (click)="press2()">+3</ion-button>
+  </th>
+  </tr>
+  <tr>
+      <th>
+  <ion-button color="warning" (click)="press3()">-2</ion-button>
+  <ion-button color="warning" (click)="press4()">+2</ion-button>
+  </th>
+  </tr>
+  <tr>
+      <th>
+  <ion-button color="warning" (click)="press5()">-1</ion-button>
+  <ion-button color="warning" (click)="press6()">+1</ion-button>
+  </th>
+  </tr>
+  <!-- </div> -->
+  </th>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <th>
+  <!-- <div class="container_1"> -->
+    <ion-label>Team B</ion-label>
+    <ion-label><h1>{{TB}}</h1></ion-label>
+    <tr>
+        <th>
+  <ion-button color="warning" (click)="press7()">-3</ion-button>
+  <ion-button color="warning" (click)="press8()">+3</ion-button>
+  </th>
+  </tr>
+  <tr>
+      <th>
+  
+  <ion-button color="warning" (click)="press9()">-2</ion-button>
+  <ion-button color="warning" (click)="press10()">+2</ion-button>
+  </th>
+  </tr>
+  <tr>
+      <th>
+  <ion-button color="warning" (click)="press11()">-1</ion-button>
+  <ion-button color="warning" (click)="press12()">+1</ion-button>
+  </th>
+  </tr>
+  <!-- </div> -->
+  </th>
+  </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <div class="button">
+  <ion-button color="warning" (click)="reset()">RESET</ion-button>
+  </div>
+
+  
+  </ion-content>
